@@ -35,7 +35,13 @@ A fun side project that turns Telegram into your own personal assistant — buil
    export TELEGRAM_BOT_TOKEN=your_token_here
    ```
 
-3. **Run the bot**
+3. **Set your Open Weather API Key**
+
+   ```bash
+   export OPENWEATHER_API_KEY=your_api_key
+   ```
+
+4. **Run the bot**
 
    ```bash
    sbt run
